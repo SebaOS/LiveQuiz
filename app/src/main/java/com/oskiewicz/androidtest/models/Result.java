@@ -1,8 +1,9 @@
 package com.oskiewicz.androidtest.models;
 
-import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+
+import java.util.List;
 
 public class Result {
 
@@ -41,80 +42,39 @@ public class Result {
         return id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
     public Integer getClientId() {
         return clientId;
-    }
-
-    public void setClientId(Integer clientId) {
-        this.clientId = clientId;
     }
 
     public Integer getStreamId() {
         return streamId;
     }
 
-    public void setStreamId(Integer streamId) {
-        this.streamId = streamId;
-    }
-
     public Integer getTimeToShow() {
         return timeToShow;
-    }
-
-    public void setTimeToShow(Integer timeToShow) {
-        this.timeToShow = timeToShow;
     }
 
     public Integer getPriority() {
         return priority;
     }
 
-    public void setPriority(Integer priority) {
-        this.priority = priority;
-    }
-
     public String getCreatedAt() {
         return createdAt;
-    }
-
-    public void setCreatedAt(String createdAt) {
-        this.createdAt = createdAt;
     }
 
     public Author getAuthor() {
         return author;
     }
 
-    public void setAuthor(Author author) {
-        this.author = author;
-    }
-
     public Question getQuestion() {
         return question;
-    }
-
-    public void setQuestion(Question question) {
-        this.question = question;
     }
 
     public List<Answer> getAnswers() {
         return answers;
     }
 
-    public void setAnswers(List<Answer> answers) {
-        this.answers = answers;
-    }
-
     public String getLanguage() {
         return language;
     }
-
-    public void setLanguage(String language) {
-        this.language = language;
-    }
-
 }

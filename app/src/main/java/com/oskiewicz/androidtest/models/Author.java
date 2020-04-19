@@ -11,21 +11,20 @@ public class Author {
     @SerializedName("last_name")
     @Expose
     private String lastName;
+    @SerializedName("image")
+    @Expose
+    private String image;
 
     public String getFirstName() {
         return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
     }
 
     public String getLastName() {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public String getImage() {
+        return image;
     }
 
 }
