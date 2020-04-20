@@ -13,8 +13,4 @@ public class Buff {
         return result;
     }
 
-    public void setResult(Result result) {
-        this.result = result;
-    }
-
 }

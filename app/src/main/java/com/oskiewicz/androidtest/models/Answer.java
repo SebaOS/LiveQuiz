@@ -35,9 +35,4 @@ public class Answer {
         return image;
     }
 
-    public Answer(Integer id, Integer buffId, String title) {
-        this.id = id;
-        this.buffId = buffId;
-        this.title = title;
-    }
 }

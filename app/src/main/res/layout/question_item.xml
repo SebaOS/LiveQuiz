@@ -4,33 +4,33 @@
     android:id="@+id/questionItem"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:alpha="0.7"
     android:background="@drawable/question_bcg"
-    android:padding="12dp">
+    android:padding="4dp">
 
     <TextView
-        android:id="@+id/questionView"
+        android:id="@+id/questionText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="64dp"
+        android:layout_marginEnd="8dp"
         android:fontFamily="@font/roboto_bold"
+        android:padding="8dp"
         android:text="Why Marcelo belisa is still using a translator?"
         android:textColor="@android:color/white"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ProgressBar
         android:id="@+id/progressBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/timeView"
+        android:id="@+id/timeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_bold"
