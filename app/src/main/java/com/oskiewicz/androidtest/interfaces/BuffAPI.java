@@ -1,7 +1,6 @@
 package com.oskiewicz.androidtest.interfaces;
 
 import com.oskiewicz.androidtest.models.Buff;
-import com.oskiewicz.androidtest.models.Result;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
