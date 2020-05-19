@@ -9,7 +9,7 @@ The application's assumption is to create a system that will display a question 
 
 This project creates functionality that allows displaying a window with a question and answers, which are downloaded every 30 seconds using the REST API. After the time for response has elapsed, the window is hidden. When the user answers the question before the time runs out, the window will disappear after 2 seconds.
 
-## Technology
+## Technologies
 
 - Android SDK
 - REST API
