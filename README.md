@@ -13,4 +13,4 @@ This project creates functionality that allows displaying a window with a questi
 
 - Android SDK
 - REST API
-- Retrofit
+- Retrofit2
